@@ -1,0 +1,138 @@
+.midbg{
+    width:100%;
+    height:2900px;
+    background-color: #501B1D;
+    transition: 2s ease-out;
+}
+.nav{
+    width:100%;
+    background-color: blue;
+    height:100px;
+}
+.contain{
+    position: relative;
+    width:1300px;
+    height:2400px;
+    margin: 50px 50px;
+    background-color: #993333;
+    left: 70px;
+    top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.877)
+                   0px 0px 50px 35px;
+}
+#upcoming{
+    width:100%;
+    height:330px;
+    margin-bottom: 300px;
+    background-image: url("upm.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+#toprated{
+    width:100%;
+    height:330px;
+    margin-bottom: 300px;
+    background-image: url("tpm.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#popular{
+    width:100%;
+    height:330px;
+    margin-bottom: 300px;
+    background-image: url("ppm.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#upmbg,#tpmbg,#ppmbg{
+  height:740px;
+  width:100%;
+  margin-bottom: 10px;
+}
+/* .boxt{
+  position: relative;
+  top:30px;
+  left:50px;
+} */
+.foot{
+  height:20px;
+  width:270px;
+  background-color: aliceblue;
+}
+.pics{
+  display: inline-block;
+  height: 280px;
+  width:200px;
+  background-color: wheat;
+}
+.ic{
+  height: 180px;
+  width:180px;
+}
+.ret{
+  text-align: center;
+}
+.topr,.upr,.popr{
+  text-align: center;
+  height: 140px;
+  background-color: rebeccapurple
+}
+.sp{
+  text-align: center;
+}
+@media only screen and (max-width: 1500px) {
+    .contain{   
+        position: relative;
+        width:800px;
+        height:1100px;
+        background-color: #993333;
+        left: 150px;
+        top: 150px;
+        box-shadow: rgba(0, 0, 0, 0.877)
+                   0px 0px 50px 35px;
+    }
+    .pics{
+      display: inline-block;
+      height: 80px;
+      width:100px;
+      background-color: wheat;
+    }
+    .ic{
+      height: 60px;
+      width:80px
+    }
+    .descrip{
+      font-size: 6px;
+    }
+    #upmbg,#tpmbg,#ppmbg{
+      height:240px;
+      width:100%;
+      margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .contain{   
+        position: relative;
+        width:500px;
+        height:1100px;
+        background-color: #993333;
+        left: 150px;
+        top: 150px;
+        box-shadow: rgba(0, 0, 0, 0.877)
+                   0px 0px 50px 35px;
+    }
+  }

@@ -1,0 +1,60 @@
+.whole{
+    width:100%;
+    height:100px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.op{
+    display: inline-block;
+}
+.lines{
+    width:3px;
+    height:35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+}
+.moviewrap{
+    width: 100%;
+    height:1200px;
+    background-image: url(/src/Body/bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.op1{
+    width: 900px;
+    height:200px;
+    position: relative;
+    left:400px;
+    background-color: aqua;
+}
+.opp1{
+    text-align: center;
+}
+.moviecontain{
+    width:60px;
+    height:100px;
+}
+.moviei{
+    margin-left: 550px;
+    width:400px;
+    height:300px;
+}
+.read{
+    color: yellowgreen;
+}
+@media only screen and (max-width: 1500px) {
+    .whole{
+        margin-left: 30px;
+    }
+    .moviei{
+        margin-left: 150px;
+    }
+    .op1{
+        width: 500px;
+    height:400px;
+    position: relative;
+    left:100px;
+    }
+  }
